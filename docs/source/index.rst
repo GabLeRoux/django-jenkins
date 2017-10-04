@@ -63,7 +63,7 @@ In order to get the right coverage, ``'django_jenkins'`` app should be included 
 
 This tutorial doesn't cover the library dependency management and deploying your django project on external server. Basically you could setup the CI server as you did in your local environment.
 
-But if you prefer automatically installation and configuration dependencies on CI server, you could easily add `virtalenv <http://pypi.python.org/pypi/virtualenv>`_ support for your project.
+But if you prefer automatically installation and configuration dependencies on CI server, you could easily add `virtualenv <http://pypi.python.org/pypi/virtualenv>`_ support for your project.
 
 Add requirements to your ``requirements.txt`` file:
 
