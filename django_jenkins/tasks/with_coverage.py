@@ -59,7 +59,7 @@ class CoverageReporter(object):
                 if not any(filename.startswith(location) for location in excluded)]
 
     def default_coverage_config(self):
-        rcfile = getattr(settings, 'COVERAGE_RCFILE', 'coverage.rc')
+        rcfile = getattr(settings, 'COVERAGE_RCFILE', '.coveragerc')
         if os.path.exists(rcfile):
             return rcfile
         return None
